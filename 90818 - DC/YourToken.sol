@@ -10,9 +10,9 @@ import "./MintableToken.sol";
  */ 
  
 // Set up your contract to inherit functions from your MintableToken contract. 
-contract {
+contract UniCoin is MintableToken{
     // Define 3 public state variables: name, symbol, number of decimals.
-    string public constant name = ;
-    string public constant symbol = ;
+    string public constant name = 'UniCoin';
+    string public constant symbol = 'UNI';
     uint8 public constant decimals = 18; //
 }
