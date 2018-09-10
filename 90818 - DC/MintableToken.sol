@@ -38,7 +38,7 @@ contract MintableToken is ERC20, Ownable {
         return true;
     }
     // Create function to stop minting new tokens. Modifiers modifiers modifiers.
-    // Write the function so taht it returns a boolean that indicates if the operation was successful.
+    // Write the function so that it returns a boolean that indicates if the operation was successful.
     function finishMinting() onlyOwner canMint public returns (bool) {
         // Update initial state to reflect that minting is finished.
         mintingFinished = true;
